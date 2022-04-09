@@ -32,6 +32,8 @@ body {
 .left-top {
   height: 8rem;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .left-bottom {
@@ -45,6 +47,8 @@ body {
   height: 50px;
   width: 15rem;
 }
+
+/* top-right form */
 
 .option-container {
   display: flex;
@@ -117,6 +121,35 @@ button.submit-income {
   background-color: #2cbe26;
   font-size: 25px;
   color: white;
+}
+
+/* top-left box */
+
+.income-box {
+  width: 50%;
+  text-align: center;
+  border-left: 1px solid grey;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.expense-box {
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.income-box p.income-amount-number {
+  color: #2cbe26;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.expense-box p.expense-amount-number {
+  color: #e03f3f;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 /* styling expense list */
